@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_num3"
+        android:layout_width="408dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:paddingLeft="30dp"
+        android:text="El resultado de la operacion es:"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="615dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Restar"
+        android:layout_width="79dp"
+        android:layout_height="49dp"
+        android:insetBottom="5dp"
+        android:text="Restar"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="546dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Multiplicar"
+        android:layout_width="79dp"
+        android:layout_height="49dp"
+        android:insetBottom="5dp"
+        android:text="Mult"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="546dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Dividir"
+        android:layout_width="79dp"
+        android:layout_height="49dp"
+        android:insetBottom="5dp"
+        android:text="Dividir"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="546dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_num2"
+        android:layout_width="408dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:paddingLeft="30dp"
+        android:text="Introduzca el segundo numero"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="474dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="413dp"
+        android:layout_height="72dp"
+        android:background="#3F51B5"
+        android:text="Mi Calculadora"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="409dp"
+        android:layout_height="88dp"
+        android:paddingLeft="30dp"
+        android:text="Bienvenidos a mi APP Calculadora"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="110dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="189dp"
+        android:layout_height="155dp"
+        app:srcCompat="@drawable/images"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="216dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_num1"
+        android:layout_width="408dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:paddingLeft="30dp"
+        android:text="Introduzca el primer numero"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="414dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Num_1"
+        android:layout_width="315dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Number 1"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="425dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Num_2"
+        android:layout_width="315dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Number 2"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="488dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Sumar"
+        android:layout_width="79dp"
+        android:layout_height="49dp"
+        android:insetBottom="5dp"
+        android:text="Sumar"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="546dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
